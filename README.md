@@ -58,9 +58,10 @@ A full-featured e-commerce platform built with the MERN stack (MongoDB, Express.
 ![Admin Dashboard](frontend/src/assets/images/demo/admin_home_page.png)
 
 ### Auction System
+![Admin Auction Creation](frontend/src/assets/images/demo/admin_auction_create_page.png)
 ![Auction System Overview](frontend/src/assets/images/demo/auction_system.png)
 ![Auction System Details](frontend/src/assets/images/demo/auction_system_2.png)
-![Admin Auction Creation](frontend/src/assets/images/demo/admin_auction_create_page.png)
+
 
 
 ## 🛠️ Installation
