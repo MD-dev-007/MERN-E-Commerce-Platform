@@ -126,7 +126,26 @@ mern-ecommerce/
 - Biometric Authentication
 - Camera Integration for QR Codes
 
+## Data seeding
+- **Get started quickly with pre-populated data**: Populate your database with sample users, products, reviews, and carts, enabling you to test functionalities without manual data entry.
 
+**Steps**:
+- Open a new terminal window.
+- Navigate to the `backend` directory: `cd backend`
+- Run the seeding script: `npm run seed` ( This script executes the `seed.js` file within the `seed` subdirectory equivalent to running `node seed/seed.js` )
+
+### Database Backup
+- **Restore from backup**: The project includes a database backup in the `dump` folder that you can use to restore the complete database.
+
+**Steps to restore from backup**:
+1. Make sure MongoDB is installed and running
+2. Navigate to the project root directory
+3. Run the following command to restore the database:
+```bash
+mongorestore dump/
+```
+
+This will restore all collections with their data from the backup. The backup includes all necessary collections like users, products, orders, etc.
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
